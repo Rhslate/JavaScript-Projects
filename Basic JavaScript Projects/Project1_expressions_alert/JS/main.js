@@ -14,7 +14,7 @@ document.write(blues);  //Putting the value
 document.write(10+10);  //Expression
 
 function My_First_Function() {     //Defining a function and naming it
-    var string = "This text is green!";   //Degining a variable and giving it a 
+    var string = "This text is green!";   //Defining a variable and giving it a 
                                         //string value
 
     var result = string.fontcolor("green");  //Using the fontcolor method on
