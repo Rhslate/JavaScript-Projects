@@ -6,7 +6,7 @@ function my_Dictionary() {
         Age:5,
         Sound:"Bark!"
     };
-    document.getElementById("Dictionary").innerHTML = Animal.Sound;
+    document.getElementById("Dictionary").innerHTML = Animal.Sound; //The animal sound "Bark" is displayed on the screen when "Click me!" is clicked
 
 }
 
@@ -18,7 +18,7 @@ function my_Dictionary_2() {
         Age:5,
         Sound:"Bark!"
     };
-    delete Animal.Sound;
+    delete Animal.Sound; //This deletes the sound "Bark" from the code, and outputs "Undefined" when "Click me!" is clicked
     document.getElementById("Dictionary").innerHTML = Animal.Sound;
 
 }
