@@ -23,8 +23,7 @@ function more_Math() { //Multiple math operations at once
     document.getElementById("Math").innerHTML = "(1 + 2) * 10 / 2 - 5=" + simple_Math; 
 }
 
-function modulus_Operator() { //“Modulus” is the remainder after the dividend is divided by the divisor.
-The % symbol represents the modulus operator – which could also be called the remainder operator.
+function modulus_Operator() { //“Modulus” is the remainder after the dividend is divided by the divisor.The % symbol represents the modulus operator – which could also be called the remainder operator.
 var simple_Math = 25 % 6;
 document.getElementById("Math").innerHTML = "25 % 6 =" + simple_Math;
 }
