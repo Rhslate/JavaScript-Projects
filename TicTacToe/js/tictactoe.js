@@ -195,8 +195,8 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
             //This is necessary for the 6, 4, 2 win condition
             if (x1 <= x2 && y1 >= y2) {
                 if (x < x2) { x += 10; }
-                if (y > y2) { y -+ 10; }
-                if (x>= x2 && y <= y2) { cancelAnimationFrame(animationLoop); }
+                if (y > y2) { y -= 10; }
+                if (x >= x2 && y <= y2) { cancelAnimationFrame(animationLoop); }
             }
         }
 
