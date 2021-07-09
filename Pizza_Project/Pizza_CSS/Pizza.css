@@ -9,7 +9,7 @@
 }
 
 #frmMenu {
-    width: 400px;
+    width: 600px;
     height: 300px;
     text-align: justify;
     margin-left: 30px;
@@ -32,15 +32,15 @@
 }
 
 .center {
-    width: 400px;
+    width: 200px;
+    float: left;
     height: 200px;
-    float: center;
     color: lightsteelblue;
     font-family:'Courier New', Courier, monospace
 }
 
 .right {
-    float: right;
+    float:right;
     width: 200px;
     height: 200px;
     color: lightsteelblue;
