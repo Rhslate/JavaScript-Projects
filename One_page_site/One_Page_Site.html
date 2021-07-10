@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<link href="./CSS/one_page_website.css" rel="stylesheet" type="text/css">
+	<script src="JS/one_page_website.js"></script>
+
+<title>The magical islands of Hawaii</title>
+</head>
+
+<body>
+
+<nav>
+&bull;
+<a href="#Home">Home</a>&bull;
+<a href="#Gallery">Gallery</a>&bull;
+<a href="#Reservations">Reservations</a>&bull;
+ 
+
+<h1 id="Home"></h1>
+
+<h1>Tropical paradise awaits you</h1>
+
+<p>The stunning beaches of Hawaii</p>
+
+<h1 id="Gallery"></h1>
+
+
+<!-- Images used to open the lightbox -->
+<div class="row">
+	<div class="column">
+	  <img src="Hawaii_1.jpeg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+	</div>
+	<div class="column">
+	  <img src="Hawaii_2.jpeg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+	</div>
+	<div class="column">
+	  <img src="Hawaii_3.jpeg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+	</div>
+	</div>
+  </div>
+
+  <!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+	<span class="close cursor" onclick="closeModal()">&times;</span>
+	<div class="modal-content">
+  
+<h1 id="Reservations"></h1>									
+<p>Book your trip today!</p>
+
+
+<form action="" method="get">
+	First name: <input type="text" name="First_Name"><br>
+	Last name:  <input type="text" name="Last_Name"><br>
+	Email: 	    <input type="email" name="Email"><br>
+	Password:   <input type="password" name="Password"><br>
+	
+	<button>SUBMIT</button>
+
+	
+<br>
+</br>
+
+</form>
+
+</nav>
+
+<br>
+</br>
+
+</body>
+<a href="Link">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/DXJVyEowf8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
+<br>
+</br>
+<footer>Rachel Kirker</footer>&copy; 2021
+
+</html>

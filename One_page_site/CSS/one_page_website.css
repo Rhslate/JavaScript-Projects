@@ -1,0 +1,58 @@
+h1 {
+    color: rgb(187, 39, 83);
+    font-size: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    color: purple;
+    font-size: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+input {
+    background-color: rgb(122, 215, 238);
+    border: 2px solid purple;
+    color: rgb(19, 18, 18);
+    padding: 0px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+  
+  
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    background-color: black;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 50px;
+  }
+  
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
