@@ -14,7 +14,7 @@ function getReceipt() {
 
     if (selectedSize === "Kids Pizza") {
         sizeTotal = 4;
-    } else if (selectedSize === "Personalized Pizza") {
+    } else if (selectedSize === "Personal Pizza") {
         sizeTotal = 6;
     } else if (selectedSize === "Small Pizza") {
         sizeTotal = 8;
